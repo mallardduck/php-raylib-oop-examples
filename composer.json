@@ -1,0 +1,30 @@
+{
+    "name": "mallardduck/raylib-oop-examples",
+    "description": "A set of examples for raylib in PHP using OOP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Pock",
+            "email": "self@danpock.me"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-raylib": "*",
+        "php-di/php-di": "^6.3"
+    },
+    "require-dev": {
+        "joseph-montanez/raylib-php-stub": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "MallardDuck\\RayLibCore\\": "./src",
+            "MallardDuck\\Examples\\FloppyBlob\\": "./games/floppy",
+            "MallardDuck\\Examples\\Gorillas\\": "./games/gorillas"
+        },
+        "files": [
+            "./src/helpers.php"
+        ]
+    }
+}
