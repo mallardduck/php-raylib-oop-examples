@@ -35,9 +35,7 @@ abstract class Kernel
         Window::init(800, 600, $this->title);
         Timming::setTargetFps(60);
 
-        if (self::$instance == null) {
-            self::$instance = $this;
-        }
+        self::$instance = $this;
     }
 
     public static function setName(string $name)
