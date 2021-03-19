@@ -6,10 +6,6 @@ use JetBrains\PhpStorm\Pure;
 use raylib\Color;
 
 /**
- * Class GameColors
- *
- * @package MallardDuck\Examples\FloppyBlob
- *
  * @method static rayWhite()
  * @method static lightGray()
  * @method static darkGray()
